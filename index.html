@@ -365,7 +365,11 @@ setInterval(updateDateTime, 1000);
 <!-- TemplateEndEditable --> 
 </marquee>
 </p></p>
-
+<div style="text-align: center; margin: 20px 0; font-size: 18px; color: #000000; font-weight: bold;">
+  欢迎您到来，您是第 
+  <img src="https://komarev.com/ghpvc/?username=xiaoshang8899&label=访问量&color=blue&style=flat" alt="访问人数" />
+  位来宾
+</div>
 <!-- 这里插入实时日期时间（替换原静态日期） -->
 <div class="STYLE24" id="Layer14">
   <p class="excel1" id="currentDateTime">加载中...</p>
@@ -592,3 +596,4 @@ if(empty($_COOKIE['cookie_name'])){ // 判断Cookie是否存在
     fwrite($f_open, $count); // 向文件中写入新的数据
     fclose($f_open); // 关闭文件
 }
+
